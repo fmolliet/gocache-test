@@ -1,5 +1,5 @@
 import socket
-skt = socket.socket(socket.AF_INET)
+skt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 skt.connect(('127.0.0.7', 8000))
 skt.sendall('OK')
 
