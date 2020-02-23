@@ -7,6 +7,6 @@ while True:
     data = skt.recv(512)
     if ( len(data) < 1 ) :
         break
-    print (data);
+    print (data)
 
 skt.close()        
